@@ -170,6 +170,7 @@ button {
 .section-one-list {
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 .section-one-item {
   width: calc((100% - 72px) / 4);
@@ -310,11 +311,13 @@ button {
   margin: 0;
 }
 footer .container {
-  display: flex;
-
-  flex-direction: column;
+  /* padding-left: 264px; */
+  /* display: flex; */
+  /* display: inline-block; */
+  /* flex-direction: column; */
 }
 footer .logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 footer .logo-style {
