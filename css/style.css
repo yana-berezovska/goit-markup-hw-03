@@ -48,7 +48,7 @@ button {
   cursor: pointer;
 }
 .header-page {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 .nav-page {
   display: flex;
@@ -66,6 +66,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-style {
   color: #2e2f42;
@@ -116,6 +117,8 @@ button {
 }
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -131,10 +134,7 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
-.hero .container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
+
 .hero-btn {
   display: block;
   font-weight: 500;
@@ -149,17 +149,24 @@ button {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
-
+.section-one-item:first-child {
+  width: calc((100% - 72px) / 4);
+}
 .section-one {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 .title-section-one {
+  max-width: 496px;
 }
 .section-one-list {
   display: flex;
@@ -186,7 +193,11 @@ button {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
   padding-bottom: 120px;
+}
+.team-text {
+  padding: 32px 0;
 }
 .team-title {
   font-weight: 700;
@@ -197,7 +208,7 @@ button {
   color: #2e2f42;
   text-transform: capitalize;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -222,8 +233,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .team-card-text {
   font-weight: 400;
@@ -234,6 +245,7 @@ button {
   color: #434455;
   padding-bottom: 32px;
   margin: 0;
+  text-align: center;
 }
 
 .portfolio {
@@ -249,7 +261,7 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -287,6 +299,7 @@ button {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
   font-weight: 400;
@@ -299,9 +312,12 @@ button {
 }
 footer .container {
   display: flex;
-  padding: 100px 0;
+
   flex-direction: column;
-  gap: 16px;
+}
+footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 footer .logo-style {
   color: #f4f4fd;
