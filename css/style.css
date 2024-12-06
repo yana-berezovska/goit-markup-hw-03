@@ -172,7 +172,6 @@ button {
   gap: 24px;
 }
 .section-one-item {
-  width: 264px;
   width: calc((100% - 72px) / 4);
 }
 .section-one-title-box {
@@ -316,9 +315,9 @@ footer .container {
   flex-direction: column;
 }
 footer .logo {
-  display: inline-block;
   margin-bottom: 16px;
 }
 footer .logo-style {
   color: #f4f4fd;
+  display: inline-block;
 }
