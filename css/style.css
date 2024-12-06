@@ -127,6 +127,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
 
   padding-bottom: 48px;
 
@@ -158,9 +159,7 @@ button {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-.section-one-item:first-child {
-  width: calc((100% - 72px) / 4);
-}
+
 .section-one {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -174,6 +173,7 @@ button {
 }
 .section-one-item {
   width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .section-one-title-box {
   font-weight: 500;
